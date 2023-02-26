@@ -11,8 +11,8 @@ root.render(
   <StrictMode>
     <div className="App">
       <div>
-        <h1 class="text-md-center">Weather Search Engine</h1>
-        <p class="text-md-center">
+        <h1 class="text-md-left">Weather Search Engine</h1>
+        <p class="text-md-left">
           <SearchEngine />
         </p>
       </div>
