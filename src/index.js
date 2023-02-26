@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import "./App.css";
 import SearchEngine from "./SearchEngine";
+import Footer from "./Footer";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -17,5 +18,6 @@ root.render(
         </p>
       </div>
     </div>
+    <Footer />
   </StrictMode>
 );
